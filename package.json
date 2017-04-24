@@ -1,0 +1,21 @@
+{
+  "name": "wxweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --no-inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^2.7.2",
+    "less-vars-to-js": "^1.1.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
+  }
+}

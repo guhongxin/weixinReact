@@ -1,0 +1,88 @@
+.header{
+	height: 3.5rem;
+	width: 100%;
+	background: #393A3E;
+	position: fixed;
+}
+.bottombox{
+    height: 3.5rem;
+    width:100%;
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+    display: flex;
+    justify-content:space-around;
+    align-items:center ;
+    background: #FAFAFA;
+    z-index: 2;
+}
+a.menuBtn{
+	height: 3.5rem;
+	width: 3.5rem;
+	text-align: center;
+	margin-top: 0.3rem;
+	color: #B8B8B9;
+	text-decoration: none;	
+}
+.active{
+	color:red;
+}
+.menuBtn img{
+	height: 40px;
+	width: 40px;
+}
+.menuBtn p{
+	margin-bottom: 0px;
+	margin-top: 0.3rem;
+}
+.contentbox{
+	width: 100%;
+	height:calc(100% - 7rem);
+	position:absolute;
+	top: 3.5rem;
+	overflow: hidden;
+	overflow-y: auto;
+		
+}
+.txl{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.Chatinfor{
+	width: 100%;
+	height: 100%;
+}
+.Chatinfor ul{
+	width: 100%;
+	padding: 0px;
+	
+}
+.Chatinfor ul li{
+	width: 100%;
+	height: 50px;
+	list-style-type:none;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #FFFFFF;
+	border-bottom:1px solid gainsboro;
+}
+
+.Chatinfor ul li img{
+	vertical-align: sub;
+}
+.Chatinfor ul li div{
+	height: 50px;
+	padding-top: 5px;
+	display: inline-block; 
+}
+.Chatinfor ul li div p{
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.jiange{
+	height: 20px;
+}

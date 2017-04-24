@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>微信</title>
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="bootstrap-3.3.5-dist/js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.js" ></script>
+		<script>
+			function setRem(){
+				document.documentElement.style.fontSize=(window.innerWidth/20)+'px';
+			}
+			window.onresize=function(){
+				setRem();
+			};
+			setRem();
+		</script>
+	</head>
+	<body>
+		<div id='box'></div>
+		<script src='index.js'></script>
+	</body>
+</html>
